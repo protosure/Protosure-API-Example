@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Lambda Rater API Response",
+  "type": "object",
+  "properties": {
+    "fields": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type":"string"},
+          "label": {"type":"string"},
+          "input": {"type":"boolean"},
+          "output": {"type":"boolean"}
+        }
+      },
+      "uniqueItems": true
+    },
+    "calculation": {
+      "type": "object"
+    }
+  },
+  "required": ["fields", "calculation"]
+}

@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "app_name": "lambda_rater_api",
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  },
+  "environment_variables": {
+    "QUOTE_SUBMIT_HANDLER_PROTOSURE_HOST": "",
+    "QUOTE_SUBMIT_HANDLER_WIDGET_FIRST_NAME_ID": "",
+    "QUOTE_SUBMIT_HANDLER_WIDGET_LAST_NAME_ID": "",
+    "QUOTE_SUBMIT_HANDLER_WIDGET_ADDRESS_ID": "",
+    "QUOTE_SUBMIT_HANDLER_PROTOSURE_EMAIL": "",
+    "QUOTE_SUBMIT_HANDLER_PROTOSURE_PASSWORD": ""
+    "QUOTE_SUBMIT_HANDLER_ALERT_EMAIL": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "api_handler_name": "lambda_rater_api-dev",
+    "api_handler_arn": "arn:aws:lambda:us-east-1:455930684101:function:lambda_rater_api-dev",
+    "lambda_functions": {},
+    "backend": "api",
+    "chalice_version": "1.1.0",
+    "rest_api_id": "3ae8wz88ni",
+    "api_gateway_stage": "api",
+    "region": "us-east-1"
+  }
+}
